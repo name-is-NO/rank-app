@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>テスト</title>
+    <link rel="stylesheet" href="rankapp.css" />
+
+
+
+</head>
+<body>
+  <div class="container">
+    
+    <!-- JSONデータの再読み込み用ボタン -->
+    <button id="update"  class="btn btn-lg" data-type="1">データ更新</button>
+    
+    <!-- ランキング表示用のテーブル要素を準備 -->
+    <table id="ranking" class="table table-striped table-hover"></table>
+    
+  </div>
+  
+
+  <!-- fetchに対応していないブラウザ用のJSライブラリ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.1/fetch.min.js"></script>
+
+  <script src="rankapp.js"></script>
+</body>
+</html>
+
